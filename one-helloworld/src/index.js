@@ -1,8 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
-function Appy() {
-  return <h1>Hello World !!</h1>;
-}
+import App from "./App";
 
-ReactDOM.render(<Appy />, document.getElementById("root"));
+ReactDOM.render(<App />, document.getElementById("root"));
